@@ -1,0 +1,552 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+.row {
+  margin: 0px;
+  background-color: transparent;
+}
+
+.container-fluid {
+  padding:0px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.hidden {
+  visibility: none;
+  color: #006F53;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+}
+
+#donate{
+  position: absolute; 
+    background-color: #fcaf14;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+#donate{
+  position: absolute;
+  top: 23px;
+  right: 340px;
+  padding: 20px;
+}
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+#donate{
+  top: 10px;
+  right: 12%;
+  padding: 20px;
+}
+}
+
+@media (max-width: 424px) {
+#donate{
+  top: 50px;
+  right: 0px;
+  padding: 10px;
+}
+}
+
+@media (min-width: 1200px){
+#logo-img {
+  background: url('../images/sos_sahel_logo.gif') no-repeat;
+  width: 686px;
+  height: 65px;
+  margin: 20px 15px 10px 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+#logo-img {
+  background: url('../images/sos_sahel_logo_nologotype.gif') no-repeat;
+  width: 300px;
+  height: 65px;
+  margin: 20px 15px 10px 0;
+}
+}
+
+@media (max-width: 767px){
+#logo-img {
+  background: url('../images/sos_sahel_logo_nologotype.gif') no-repeat;
+  width: 300px;
+  height: 65px;
+  margin: 20px 15px 10px 10px;
+}
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color:  #006F53;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color:  #006F53;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* Homepage */
+#jumbotron{
+  position: relative;
+}
+
+.slogan{
+  color: white;
+  padding: 5% 10% 5% 10%;
+  text-align: center;
+    background-color: #006F53;
+}
+
+.boxonimage {
+  box-sizing: border-box;
+  position: relative;
+  background-color: white;
+  opacity: 0.7;
+  top: 60px;
+  left: 60px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.divider {
+  font-size: 2em;
+  text-transform: uppercase;
+  background-color: white;
+  text-align: center;
+  color: #006F53;
+  font-weight: bold;
+}
+
+.news {
+  background-color: white;
+}
+
+.homeitem {
+  background: #ffffff;
+  opacity: 0.8;
+}
+
+.homeitem h1 {
+text-align: center;
+padding-bottom: 10px;
+}
+
+.homeitem img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px){
+.divider {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.homeitemactive {
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 0px;
+  background: #ffffff;
+  height: auto;
+}
+.homeitemactive img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.homeitemactive h1 {
+font-size: 1.6em;
+}
+.homeitemactive p {
+display: none;
+  }
+.homeitemlong {
+  background: #ffffff;
+  margin-top: 80px;
+}
+.homeiteminactive {
+  margin: 0px 15px 0px 15px;
+  padding: 20px;
+  background: #ffffff;
+  font-size: 0.8em;
+  height: 240px;
+  opacity: 0.7;
+}
+.homeitemfacts {
+  margin-top: 80px;
+  border: 5px solid #006F53;;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px 50px;
+}
+}
+
+.what img{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 10px;
+  border: 1px #006F53 solid;
+}
+
+.what img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.what h1{
+  font-size: 1em;
+  position: absolute;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+
+@media (min-width: 1200px){
+ #jumbotron{
+width: 100%;
+height: 600px;
+background: url("../images/jumbotron_1500.jpg") center no-repeat;
+}
+  .slogan {
+    font-size: 1.5em;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.boxonimage {
+  width: 35%;
+}
+.homeitem {
+  margin: 0px 60px 0px 60px;
+  }
+ / .homeitemactive img {
+  width: 250px;
+  height: 250px;
+}
+.homeitemlongrow {
+  padding: 20px 150px 40px 150px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  #jumbotron{
+width: 100%;
+height: 600px;
+background: url("../images/jumbotron_1500.jpg") center no-repeat;
+}
+  .slogan {
+    font-size: 1.5em;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.boxonimage {
+  width: 35%;
+}
+.homeitem {
+  margin: 0px 10px 60px 10px;
+  }
+.homeitemactive img {
+  width: 220px;
+  height: 220px;
+}
+.homeitemlongrow {
+  padding: 20px 100px 0px 100px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  #jumbotron{
+width: 100%;
+height: 380px;
+background: url("../images/jumbotron_980.jpg") center;
+}
+  .slogan {
+    font-size: 1.2em;
+}
+  .boxonimage {
+  width: 40%;
+  font-size: 0.9em;
+}
+.divider {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.homeitem {
+  margin: 0px 40px 30px 40px;
+  }
+#homeitem3 {
+width: 60%;
+margin-right: auto;
+margin-left: auto;
+}
+.homeitem img:hover {
+-webkit-filter: contrast(130%); /* Safari 6.0 - 9.0 */
+    filter: contrast(130%);
+}
+}
+
+@media (max-width: 767px){
+.homeitem {
+height: auto;
+}
+.homeitem img:hover {
+-webkit-filter: contrast(130%); /* Safari 6.0 - 9.0 */
+    filter: contrast(130%);
+}
+.divider {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.what img{
+  margin-bottom: 50px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  #jumbotron{
+width: 100%;
+margin-bottom: 15px;
+background: url("../images/jumbotron_768.jpg") center no-repeat;
+}
+  .slogan {
+    font-size: 1.1em;
+}
+.boxonimage {
+  width: 50%;
+}
+.homeitem {
+  margin: 0px 20px 0px 20px;
+    height: 340px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 480px){
+#jumbotron{
+width: 100%;
+background: url("../images/jumbotron_768.jpg") center no-repeat;
+padding-right:200px;
+margin-right: 200px;
+margin-bottom: 10px;
+}
+  .slogan {
+    font-size: 1em;
+}
+}
+/*Map*/
+#maptext{
+opacity: 0.9;
+}
+
+#sudanimg {
+position: absolute;
+height: auto;
+opacity: 0.7;
+}
+
+#sudanimg:hover, #southsudanimg:hover, #ethiopiaimg:hover {
+opacity: 1;
+}
+
+#sudanname, #southsudanname, #ethiopianame {
+    display: none;
+}
+
+#sudanimg:hover + #sudanname, #southsudanimg:hover + #southsudanname, #ethiopiaimg:hover + #ethiopianame{
+position: absolute;
+display: block;
+}
+
+#sudanimg:hover + #sudanname h1, #southsudanimg:hover + #southsudanname h1, #ethiopiaimg:hover + #ethiopianame h1{
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: white;
+  text-align: left;
+  color: #006F53;
+  font-weight: bold;
+}
+#southsudanimg {
+position: absolute;
+height: auto;
+opacity: 0.7;
+}
+#ethiopiaimg {
+position: absolute;
+height: auto;
+opacity: 0.7;
+}
+
+
+@media (min-width: 1200px){
+#map{
+  padding-top: 40px;
+height: 550px;
+}
+#maptext{
+left: -4%;
+padding-top: 70px;
+}
+#sudanimg {
+width: 240px;
+left: 135px;
+}
+#sudanimg:hover + #sudanname, #southsudanimg:hover + #southsudanname, #ethiopiaimg:hover + #ethiopianame{
+left: -200px;
+width: 300px;
+}
+#southsudanimg {
+width: 160px;
+top: 180px;
+left: 170px;
+}
+#ethiopiaimg {
+width: 208px;
+top: 135px;
+left: 300px;
+}
+.what{
+margin-top: 40px;
+margin-bottom: 100px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+#map{
+padding-top: 40px;
+height: 500px;
+}
+#maptext{
+left: -4%;
+padding-top: 70px;
+}
+#sudanimg {
+width: 200px;
+left: -20px;
+}
+#sudanimg:hover + #sudanname, #southsudanimg:hover + #southsudanname, #ethiopiaimg:hover + #ethiopianame{
+left: -300px;
+width: 250px;
+}
+#southsudanimg {
+width: 160px;
+top: 160px;
+left: -5px;
+}
+#ethiopiaimg {
+width: 170px;
+top: 135px;
+left: 115px;
+}
+.what{
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+.whatrow {
+  margin-bottom: 50px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+#map{
+padding-top: 40px;
+height: 400px;
+}
+#maptext{
+left: -4%;
+padding-top: 40px;
+}
+#sudanimg:hover + #sudanname, #southsudanimg:hover + #southsudanname, #ethiopiaimg:hover + #ethiopianame{
+left: 40px;
+width: 250px;
+top: 300px;
+}
+#sudanimg {
+width: 200px;
+left: 20px;
+}
+#southsudanimg {
+width: 160px;
+top: 160px;
+left: 35px;
+}
+#ethiopiaimg {
+width: 170px;
+top: 135px;
+left: 155px;
+}
+.what{
+margin-top: 20px;
+margin-bottom: 40px;
+}
+.whatrow {
+  margin-bottom: 50px;
+}
+}
+
