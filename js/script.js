@@ -24,7 +24,7 @@ var switchMenuToActive = function () {
   }
 };
 
-$('#main-content').load('../snippets/home-snippet.html');
+$('#main-content').load('SOS_Sahel/snippets/home-snippet.html');
 
 window.onload=function(){
 var a1 = document.getElementById("homeitem1");
